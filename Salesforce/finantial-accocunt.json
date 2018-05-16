@@ -1,0 +1,106 @@
+{
+  "title": "FinancialUxSearchResponse",
+  "description": "Contiene ios datos de un producto asociado a un cliente",
+  "availableBalance": {
+    "type": "string",
+    "example": 16374.01,
+    "description": "Saldo Disponible",
+    "allowEmptyValue": false
+  },
+  "contractId": {
+    "type": "string",
+    "example": "00101",
+    "description": "Codigo de operacion",
+    "allowEmptyValue": false
+  },
+  "creditStatus": {
+    "type": "string",
+    "example": "AC",
+    "description": "Estado del credito",
+    "allowEmptyValue": false
+  },
+  "currencyCode": {
+    "type": "string",
+    "example": "001",
+    "description": "Codigo de moneda de la cuenta",
+    "allowEmptyValue": false
+  },
+  "currencyId": {
+    "type": "string",
+    "example": "001",
+    "description": "codigo de moneda del credito",
+    "allowEmptyValue": false
+  },
+  "currencyTypeCode": {
+    "type": "string",
+    "example": "001",
+    "description": "Codigo de moneda de la operacion",
+    "allowEmptyValue": false
+  },
+  "familyCode": {
+    "type": "string",
+    "example": 16374.01,
+    "description": "Agrupacion de producto",
+    "allowEmptyValue": false
+  },
+  "formattedNumber": {
+    "type": "string",
+    "example": "100-193-00000003286920",
+    "description": "Numero de cuenta formateada",
+    "allowEmptyValue": false
+  },
+  "leasingScheduleDueDate": {
+    "type": "string",
+    "example": 0.15,
+    "description": "Fecha de vencimiento",
+    "allowEmptyValue": false
+  },
+  "number": {
+    "type": "string",
+    "example": 10019300000003286920,
+    "description": "Numero de cuenta sin formatear",
+    "allowEmptyValue": false
+  },
+  "pendingAmount": {
+    "type": "string",
+    "example": 254.12,
+    "description": "Saldo pendiente por pagar",
+    "allowEmptyValue": false
+  },
+  "preInstalmentRatePercentage": {
+    "type": "string",
+    "example": 0.15,
+    "description": "Tasa de interes",
+    "allowEmptyValue": false
+  },
+  "recordTypeId": {
+    "type": "string",
+    "example": 10019300000003286920,
+    "description": "Id de registro para Salesforce",
+    "allowEmptyValue": false
+  },
+  "stateAccountDesc": {
+    "type": "string",
+    "example": "CC",
+    "description": "Estado de la cuenta",
+    "allowEmptyValue": false
+  },
+  "tioauxCode": {
+    "type": "string",
+    "example": "CREEFE",
+    "description": "codigo del producto",
+    "allowEmptyValue": false
+  },
+  "tioauxDescription": {
+    "type": "string",
+    "example": "CREDITO EFECTIVO",
+    "description": "Nombre del producto",
+    "allowEmptyValue": false
+  },
+  "totalDebtAmount": {
+    "type": "string",
+    "example": 16374.01,
+    "description": "Saldo total actual",
+    "allowEmptyValue": false
+  }
+}
